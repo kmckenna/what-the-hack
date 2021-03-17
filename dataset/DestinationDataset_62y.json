@@ -1,0 +1,93 @@
+{
+	"name": "DestinationDataset_62y",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "ROWID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Updated",
+				"type": "date"
+			},
+			{
+				"name": "Confirmed",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ConfirmedChange",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Deaths",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "DeathsChange",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Recovered",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "RecoveredChange",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Latitude",
+				"type": "decimal",
+				"precision": 10,
+				"scale": 5
+			},
+			{
+				"name": "Longitude",
+				"type": "decimal",
+				"precision": 10,
+				"scale": 5
+			},
+			{
+				"name": "ISO2",
+				"type": "varchar"
+			},
+			{
+				"name": "ISO3",
+				"type": "varchar"
+			},
+			{
+				"name": "Country_Region",
+				"type": "varchar"
+			},
+			{
+				"name": "AdminRegion1",
+				"type": "varchar"
+			},
+			{
+				"name": "AdminRegion2",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Metrics"
+		}
+	}
+}
