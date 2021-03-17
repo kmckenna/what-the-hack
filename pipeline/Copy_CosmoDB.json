@@ -284,7 +284,7 @@
 							},
 							{
 								"source": {
-									"path": "$['h5_investment_in_vaccines']"
+									"path": "$['m1_wildcard']"
 								},
 								"sink": {
 									"ordinal": 29
@@ -292,7 +292,7 @@
 							},
 							{
 								"source": {
-									"path": "$['m1_wildcard']"
+									"path": "$['confirmedcases']"
 								},
 								"sink": {
 									"ordinal": 30
@@ -300,7 +300,7 @@
 							},
 							{
 								"source": {
-									"path": "$['confirmedcases']"
+									"path": "$['confirmeddeaths']"
 								},
 								"sink": {
 									"ordinal": 31
@@ -308,7 +308,7 @@
 							},
 							{
 								"source": {
-									"path": "$['confirmeddeaths']"
+									"path": "$['stringencyindex']"
 								},
 								"sink": {
 									"ordinal": 32
@@ -316,7 +316,7 @@
 							},
 							{
 								"source": {
-									"path": "$['stringencyindex']"
+									"path": "$['stringencyindexfordisplay']"
 								},
 								"sink": {
 									"ordinal": 33
@@ -324,7 +324,7 @@
 							},
 							{
 								"source": {
-									"path": "$['stringencyindexfordisplay']"
+									"path": "$['legacystringencyindex']"
 								},
 								"sink": {
 									"ordinal": 34
@@ -332,7 +332,7 @@
 							},
 							{
 								"source": {
-									"path": "$['legacystringencyindex']"
+									"path": "$['legacystringencyindexfordisplay']"
 								},
 								"sink": {
 									"ordinal": 35
@@ -340,7 +340,7 @@
 							},
 							{
 								"source": {
-									"path": "$['legacystringencyindexfordisplay']"
+									"path": "$['iso_country']"
 								},
 								"sink": {
 									"ordinal": 36
@@ -348,7 +348,7 @@
 							},
 							{
 								"source": {
-									"path": "$['iso_country']"
+									"path": "$['load_date']"
 								},
 								"sink": {
 									"ordinal": 37
@@ -356,7 +356,7 @@
 							},
 							{
 								"source": {
-									"path": "$['load_date']"
+									"path": "$['id']"
 								},
 								"sink": {
 									"ordinal": 38
@@ -364,7 +364,7 @@
 							},
 							{
 								"source": {
-									"path": "$['id']"
+									"path": "$['_rid']"
 								},
 								"sink": {
 									"ordinal": 39
@@ -372,7 +372,7 @@
 							},
 							{
 								"source": {
-									"path": "$['_rid']"
+									"path": "$['_self']"
 								},
 								"sink": {
 									"ordinal": 40
@@ -380,7 +380,7 @@
 							},
 							{
 								"source": {
-									"path": "$['_self']"
+									"path": "$['_etag']"
 								},
 								"sink": {
 									"ordinal": 41
@@ -388,7 +388,7 @@
 							},
 							{
 								"source": {
-									"path": "$['_etag']"
+									"path": "$['_attachments']"
 								},
 								"sink": {
 									"ordinal": 42
@@ -396,18 +396,10 @@
 							},
 							{
 								"source": {
-									"path": "$['_attachments']"
-								},
-								"sink": {
-									"ordinal": 43
-								}
-							},
-							{
-								"source": {
 									"path": "$['_ts']"
 								},
 								"sink": {
-									"ordinal": 44
+									"ordinal": 43
 								}
 							}
 						]
