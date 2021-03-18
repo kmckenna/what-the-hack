@@ -63,7 +63,7 @@
 									"path": "$['countryname']"
 								},
 								"sink": {
-									"ordinal": 1
+									"name": "countryname"
 								}
 							},
 							{
@@ -71,7 +71,7 @@
 									"path": "$['countrycode']"
 								},
 								"sink": {
-									"ordinal": 2
+									"name": "countrycode"
 								}
 							},
 							{
@@ -79,7 +79,7 @@
 									"path": "$['date']"
 								},
 								"sink": {
-									"ordinal": 3
+									"name": "date"
 								}
 							},
 							{
@@ -87,7 +87,7 @@
 									"path": "$['c1_school_closing']"
 								},
 								"sink": {
-									"ordinal": 4
+									"name": "c1_school_closing"
 								}
 							},
 							{
@@ -95,7 +95,7 @@
 									"path": "$['c1_flag']"
 								},
 								"sink": {
-									"ordinal": 5
+									"name": "c1_flag"
 								}
 							},
 							{
@@ -103,7 +103,7 @@
 									"path": "$['c2_workplace_closing']"
 								},
 								"sink": {
-									"ordinal": 6
+									"name": "c2_workplace_closing"
 								}
 							},
 							{
@@ -111,7 +111,7 @@
 									"path": "$['c2_flag']"
 								},
 								"sink": {
-									"ordinal": 7
+									"name": "c2_flag"
 								}
 							},
 							{
@@ -119,7 +119,7 @@
 									"path": "$['c3_cancel_public_events']"
 								},
 								"sink": {
-									"ordinal": 8
+									"name": "c3_cancel_public_events"
 								}
 							},
 							{
@@ -127,7 +127,7 @@
 									"path": "$['c3_flag']"
 								},
 								"sink": {
-									"ordinal": 9
+									"name": "c3_flag"
 								}
 							},
 							{
@@ -135,7 +135,7 @@
 									"path": "$['c4_restrictions_on_gatherings']"
 								},
 								"sink": {
-									"ordinal": 10
+									"name": "c4_restrictions_on_gatherings"
 								}
 							},
 							{
@@ -143,7 +143,7 @@
 									"path": "$['c4_flag']"
 								},
 								"sink": {
-									"ordinal": 11
+									"name": "c4_flag"
 								}
 							},
 							{
@@ -151,7 +151,7 @@
 									"path": "$['c5_close_public_transport']"
 								},
 								"sink": {
-									"ordinal": 12
+									"name": "c5_close_public_transport"
 								}
 							},
 							{
@@ -159,7 +159,7 @@
 									"path": "$['c5_flag']"
 								},
 								"sink": {
-									"ordinal": 13
+									"name": "c5_flag"
 								}
 							},
 							{
@@ -167,7 +167,7 @@
 									"path": "$['c6_stay_at_home_requirements']"
 								},
 								"sink": {
-									"ordinal": 14
+									"name": "c6_stay_at_home_requirements"
 								}
 							},
 							{
@@ -175,7 +175,7 @@
 									"path": "$['c6_flag']"
 								},
 								"sink": {
-									"ordinal": 15
+									"name": "c6_flag"
 								}
 							},
 							{
@@ -183,7 +183,7 @@
 									"path": "$['c7_restrictions_on_internal_movement']"
 								},
 								"sink": {
-									"ordinal": 16
+									"name": "c7_restrictions_on_internal_movement"
 								}
 							},
 							{
@@ -191,7 +191,7 @@
 									"path": "$['c7_flag']"
 								},
 								"sink": {
-									"ordinal": 17
+									"name": "c7_flag"
 								}
 							},
 							{
@@ -199,7 +199,7 @@
 									"path": "$['c8_international_travel_controls']"
 								},
 								"sink": {
-									"ordinal": 18
+									"name": "c8_international_travel_controls"
 								}
 							},
 							{
@@ -207,7 +207,7 @@
 									"path": "$['e1_income_support']"
 								},
 								"sink": {
-									"ordinal": 19
+									"name": "e1_income_support"
 								}
 							},
 							{
@@ -215,7 +215,7 @@
 									"path": "$['e1_flag']"
 								},
 								"sink": {
-									"ordinal": 20
+									"name": "e1_flag"
 								}
 							},
 							{
@@ -223,7 +223,7 @@
 									"path": "$['e2_debt/contract_relief']"
 								},
 								"sink": {
-									"ordinal": 21
+									"name": "e2_debt/contract_relief"
 								}
 							},
 							{
@@ -231,7 +231,7 @@
 									"path": "$['e3_fiscal_measures']"
 								},
 								"sink": {
-									"ordinal": 22
+									"name": "e3_fiscal_measures"
 								}
 							},
 							{
@@ -239,7 +239,7 @@
 									"path": "$['e4_international_support']"
 								},
 								"sink": {
-									"ordinal": 23
+									"name": "e4_international_support"
 								}
 							},
 							{
@@ -247,7 +247,7 @@
 									"path": "$['h1_public_information_campaigns']"
 								},
 								"sink": {
-									"ordinal": 24
+									"name": "h1_public_information_campaigns"
 								}
 							},
 							{
@@ -255,7 +255,7 @@
 									"path": "$['h1_flag']"
 								},
 								"sink": {
-									"ordinal": 25
+									"name": "h1_flag"
 								}
 							},
 							{
@@ -263,7 +263,7 @@
 									"path": "$['h2_testing_policy']"
 								},
 								"sink": {
-									"ordinal": 26
+									"name": "h2_testing_policy"
 								}
 							},
 							{
@@ -271,7 +271,7 @@
 									"path": "$['h3_contact_tracing']"
 								},
 								"sink": {
-									"ordinal": 27
+									"name": "h3_contact_tracing"
 								}
 							},
 							{
@@ -279,7 +279,15 @@
 									"path": "$['h4_emergency_investment_in_healthcare']"
 								},
 								"sink": {
-									"ordinal": 28
+									"name": "h4_emergency_investment_in_healthcare"
+								}
+							},
+							{
+								"source": {
+									"path": "$['h5_investment_in_vaccines']"
+								},
+								"sink": {
+									"name": "h5_investment_in_vaccines"
 								}
 							},
 							{
@@ -287,7 +295,7 @@
 									"path": "$['m1_wildcard']"
 								},
 								"sink": {
-									"ordinal": 29
+									"name": "m1_wildcard"
 								}
 							},
 							{
@@ -295,7 +303,7 @@
 									"path": "$['confirmedcases']"
 								},
 								"sink": {
-									"ordinal": 30
+									"name": "confirmedcases"
 								}
 							},
 							{
@@ -303,7 +311,7 @@
 									"path": "$['confirmeddeaths']"
 								},
 								"sink": {
-									"ordinal": 31
+									"name": "confirmeddeaths"
 								}
 							},
 							{
@@ -311,7 +319,7 @@
 									"path": "$['stringencyindex']"
 								},
 								"sink": {
-									"ordinal": 32
+									"name": "stringencyindex"
 								}
 							},
 							{
@@ -319,7 +327,7 @@
 									"path": "$['stringencyindexfordisplay']"
 								},
 								"sink": {
-									"ordinal": 33
+									"name": "stringencyindexfordisplay"
 								}
 							},
 							{
@@ -327,7 +335,7 @@
 									"path": "$['legacystringencyindex']"
 								},
 								"sink": {
-									"ordinal": 34
+									"name": "legacystringencyindex"
 								}
 							},
 							{
@@ -335,7 +343,7 @@
 									"path": "$['legacystringencyindexfordisplay']"
 								},
 								"sink": {
-									"ordinal": 35
+									"name": "legacystringencyindexfordisplay"
 								}
 							},
 							{
@@ -343,7 +351,7 @@
 									"path": "$['iso_country']"
 								},
 								"sink": {
-									"ordinal": 36
+									"name": "iso_country"
 								}
 							},
 							{
@@ -351,7 +359,7 @@
 									"path": "$['load_date']"
 								},
 								"sink": {
-									"ordinal": 37
+									"name": "load_date"
 								}
 							},
 							{
@@ -359,7 +367,7 @@
 									"path": "$['id']"
 								},
 								"sink": {
-									"ordinal": 38
+									"name": "id"
 								}
 							},
 							{
@@ -367,7 +375,7 @@
 									"path": "$['_rid']"
 								},
 								"sink": {
-									"ordinal": 39
+									"name": "_rid"
 								}
 							},
 							{
@@ -375,7 +383,7 @@
 									"path": "$['_self']"
 								},
 								"sink": {
-									"ordinal": 40
+									"name": "_self"
 								}
 							},
 							{
@@ -383,7 +391,7 @@
 									"path": "$['_etag']"
 								},
 								"sink": {
-									"ordinal": 41
+									"name": "_etag"
 								}
 							},
 							{
@@ -391,7 +399,7 @@
 									"path": "$['_attachments']"
 								},
 								"sink": {
-									"ordinal": 42
+									"name": "_attachments"
 								}
 							},
 							{
@@ -399,7 +407,7 @@
 									"path": "$['_ts']"
 								},
 								"sink": {
-									"ordinal": 43
+									"name": "_ts"
 								}
 							}
 						]
