@@ -340,7 +340,8 @@
 									"path": "$['legacystringencyindex']"
 								},
 								"sink": {
-									"name": "legacystringencyindex"
+									"name": "legacystringencyindex",
+									"type": "String"
 								}
 							},
 							{
