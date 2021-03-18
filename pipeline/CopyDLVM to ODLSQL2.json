@@ -66,152 +66,194 @@
 						"mappings": [
 							{
 								"source": {
+									"name": "ROWID",
 									"type": "String",
-									"ordinal": 1
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column1",
-									"type": "String"
+									"name": "ROWID",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "ID",
 									"type": "String",
-									"ordinal": 2
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column2",
-									"type": "String"
+									"name": "ID",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "Updated",
 									"type": "String",
-									"ordinal": 3
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column3",
-									"type": "String"
+									"name": "Updated",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "Confirmed",
 									"type": "String",
-									"ordinal": 4
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column4",
-									"type": "String"
+									"name": "Confirmed",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "ConfirmedChange",
 									"type": "String",
-									"ordinal": 5
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column5",
-									"type": "String"
+									"name": "ConfirmedChange",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "Deaths",
 									"type": "String",
-									"ordinal": 6
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column6",
-									"type": "String"
+									"name": "Deaths",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "DeathsChange",
 									"type": "String",
-									"ordinal": 7
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column7",
-									"type": "String"
+									"name": "DeathsChange",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "Recovered",
 									"type": "String",
-									"ordinal": 8
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column8",
-									"type": "String"
+									"name": "Recovered",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "RecoveredChange",
 									"type": "String",
-									"ordinal": 9
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column9",
-									"type": "String"
+									"name": "RecoveredChange",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "Latitude",
 									"type": "String",
-									"ordinal": 10
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column10",
-									"type": "String"
+									"name": "Latitude",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "Longitude",
 									"type": "String",
-									"ordinal": 11
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column11",
-									"type": "String"
+									"name": "Longitude",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "ISO2",
 									"type": "String",
-									"ordinal": 12
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column12",
-									"type": "String"
+									"name": "ISO2",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "ISO3",
 									"type": "String",
-									"ordinal": 13
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column13",
-									"type": "String"
+									"name": "ISO3",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "Country_Region",
 									"type": "String",
-									"ordinal": 14
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column14",
-									"type": "String"
+									"name": "Country_Region",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "AdminRegion1",
 									"type": "String",
-									"ordinal": 15
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column15",
-									"type": "String"
+									"name": "AdminRegion1",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "AdminRegion2",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "AdminRegion2",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
@@ -220,8 +262,9 @@
 									"type": "String"
 								},
 								"sink": {
-									"name": "Column16",
-									"type": "String"
+									"name": "SourceFlag",
+									"type": "String",
+									"physicalType": "String"
 								}
 							}
 						],
