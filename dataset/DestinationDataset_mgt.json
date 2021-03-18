@@ -9,7 +9,7 @@
 		"type": "SqlServerTable",
 		"schema": [],
 		"typeProperties": {
-			"table": "Azure Data Lake Storage Gen2 file"
+			"table": "cosmo"
 		}
 	}
 }
