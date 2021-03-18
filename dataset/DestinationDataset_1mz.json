@@ -1,0 +1,15 @@
+{
+	"name": "DestinationDataset_1mz",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "StagingSQL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"table": "Azure Data Lake Storage Gen2 file"
+		}
+	}
+}
