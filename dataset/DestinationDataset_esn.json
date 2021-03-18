@@ -1,0 +1,16 @@
+{
+	"name": "DestinationDataset_esn",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "StagingSQL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "team6db_stg",
+			"table": "Metrics"
+		}
+	}
+}
