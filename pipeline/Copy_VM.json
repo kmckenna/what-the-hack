@@ -65,6 +65,171 @@
 										},
 										"path": "srcvm"
 									}
+								},
+								"translator": {
+									"type": "TabularTranslator",
+									"mappings": [
+										{
+											"source": {
+												"name": "ROWID",
+												"type": "Int32"
+											},
+											"sink": {
+												"name": "ROWID",
+												"type": "Int32"
+											}
+										},
+										{
+											"source": {
+												"name": "ID",
+												"type": "Int32"
+											},
+											"sink": {
+												"name": "ID",
+												"type": "Int32"
+											}
+										},
+										{
+											"source": {
+												"name": "Updated",
+												"type": "DateTime"
+											},
+											"sink": {
+												"name": "Updated",
+												"type": "DateTime"
+											}
+										},
+										{
+											"source": {
+												"name": "Confirmed",
+												"type": "Int32"
+											},
+											"sink": {
+												"name": "Confirmed",
+												"type": "Int32"
+											}
+										},
+										{
+											"source": {
+												"name": "ConfirmedChange",
+												"type": "Int32"
+											},
+											"sink": {
+												"name": "ConfirmedChange",
+												"type": "Int32"
+											}
+										},
+										{
+											"source": {
+												"name": "Deaths",
+												"type": "Int32"
+											},
+											"sink": {
+												"name": "Deaths",
+												"type": "Int32"
+											}
+										},
+										{
+											"source": {
+												"name": "DeathsChange",
+												"type": "Int32"
+											},
+											"sink": {
+												"name": "DeathsChange",
+												"type": "Int32"
+											}
+										},
+										{
+											"source": {
+												"name": "Recovered",
+												"type": "Int32"
+											},
+											"sink": {
+												"name": "Recovered",
+												"type": "Int32"
+											}
+										},
+										{
+											"source": {
+												"name": "RecoveredChange",
+												"type": "Int32"
+											},
+											"sink": {
+												"name": "RecoveredChange",
+												"type": "Int32"
+											}
+										},
+										{
+											"source": {
+												"name": "Latitude",
+												"type": "Decimal"
+											},
+											"sink": {
+												"name": "Latitude",
+												"type": "Decimal"
+											}
+										},
+										{
+											"source": {
+												"name": "Longitude",
+												"type": "Decimal"
+											},
+											"sink": {
+												"name": "Longitude",
+												"type": "Decimal"
+											}
+										},
+										{
+											"source": {
+												"name": "ISO2",
+												"type": "String"
+											},
+											"sink": {
+												"name": "ISO2",
+												"type": "String"
+											}
+										},
+										{
+											"source": {
+												"name": "ISO3",
+												"type": "String"
+											},
+											"sink": {
+												"name": "ISO3",
+												"type": "String"
+											}
+										},
+										{
+											"source": {
+												"name": "Country_Region",
+												"type": "String"
+											},
+											"sink": {
+												"name": "Country_Region",
+												"type": "String"
+											}
+										},
+										{
+											"source": {
+												"name": "AdminRegion1",
+												"type": "String"
+											},
+											"sink": {
+												"name": "AdminRegion1",
+												"type": "String"
+											}
+										},
+										{
+											"source": {
+												"name": "AdminRegion2",
+												"type": "String"
+											},
+											"sink": {
+												"name": "AdminRegion2",
+												"type": "String"
+											}
+										}
+									]
 								}
 							},
 							"inputs": [
