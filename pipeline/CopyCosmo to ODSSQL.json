@@ -66,442 +66,530 @@
 						"mappings": [
 							{
 								"source": {
+									"name": "countryname",
 									"type": "String",
-									"ordinal": 1
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column1",
-									"type": "String"
+									"name": "countryname",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "countrycode",
 									"type": "String",
-									"ordinal": 2
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column2",
-									"type": "String"
+									"name": "countrycode",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "date",
 									"type": "String",
-									"ordinal": 3
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column3",
-									"type": "String"
+									"name": "date",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "c1_school_closing",
 									"type": "String",
-									"ordinal": 4
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column4",
-									"type": "String"
+									"name": "c1_school_closing",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "c1_flag",
 									"type": "String",
-									"ordinal": 5
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column5",
-									"type": "String"
+									"name": "c1_flag",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "c2_workplace_closing",
 									"type": "String",
-									"ordinal": 6
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column6",
-									"type": "String"
+									"name": "c2_workplace_closing",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "c2_flag",
 									"type": "String",
-									"ordinal": 7
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column7",
-									"type": "String"
+									"name": "c2_flag",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "c3_cancel_public_events",
 									"type": "String",
-									"ordinal": 8
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column8",
-									"type": "String"
+									"name": "c3_cancel_public_events",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "c3_flag",
 									"type": "String",
-									"ordinal": 9
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column9",
-									"type": "String"
+									"name": "c3_flag",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "c4_restrictions_on_gatherings",
 									"type": "String",
-									"ordinal": 10
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column10",
-									"type": "String"
+									"name": "c4_restrictions_on_gatherings",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "c4_flag",
 									"type": "String",
-									"ordinal": 11
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column11",
-									"type": "String"
+									"name": "c4_flag",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "c5_close_public_transport",
 									"type": "String",
-									"ordinal": 12
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column12",
-									"type": "String"
+									"name": "c5_close_public_transport",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "c5_flag",
 									"type": "String",
-									"ordinal": 13
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column13",
-									"type": "String"
+									"name": "c5_flag",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "c6_stay_at_home_requirements",
 									"type": "String",
-									"ordinal": 14
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column14",
-									"type": "String"
+									"name": "c6_stay_at_home_requirements",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "c6_flag",
 									"type": "String",
-									"ordinal": 15
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column15",
-									"type": "String"
+									"name": "c6_flag",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "c7_restrictions_on_internal_movement",
 									"type": "String",
-									"ordinal": 16
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column16",
-									"type": "String"
+									"name": "c7_restrictions_on_internal_movement",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "c7_flag",
 									"type": "String",
-									"ordinal": 17
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column17",
-									"type": "String"
+									"name": "c7_flag",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "c8_international_travel_controls",
 									"type": "String",
-									"ordinal": 18
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column18",
-									"type": "String"
+									"name": "c8_international_travel_controls",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "e1_income_support",
 									"type": "String",
-									"ordinal": 19
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column19",
-									"type": "String"
+									"name": "e1_income_support",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "e1_flag",
 									"type": "String",
-									"ordinal": 20
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column20",
-									"type": "String"
+									"name": "e1_flag",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "e2_debt/contract_relief",
 									"type": "String",
-									"ordinal": 21
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column21",
-									"type": "String"
+									"name": "e2_debt/contract_relief",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "e3_fiscal_measures",
 									"type": "String",
-									"ordinal": 22
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column22",
-									"type": "String"
+									"name": "e3_fiscal_measures",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "e4_international_support",
 									"type": "String",
-									"ordinal": 23
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column23",
-									"type": "String"
+									"name": "e4_international_support",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "h1_public_information_campaigns",
 									"type": "String",
-									"ordinal": 24
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column24",
-									"type": "String"
+									"name": "h1_public_information_campaigns",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "h1_flag",
 									"type": "String",
-									"ordinal": 25
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column25",
-									"type": "String"
+									"name": "h1_flag",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "h2_testing_policy",
 									"type": "String",
-									"ordinal": 26
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column26",
-									"type": "String"
+									"name": "h2_testing_policy",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "h3_contact_tracing",
 									"type": "String",
-									"ordinal": 27
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column27",
-									"type": "String"
+									"name": "h3_contact_tracing",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "h4_emergency_investment_in_healthcare",
 									"type": "String",
-									"ordinal": 28
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column28",
-									"type": "String"
+									"name": "h4_emergency_investment_in_healthcare",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "h5_investment_in_vaccines",
 									"type": "String",
-									"ordinal": 29
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column29",
-									"type": "String"
+									"name": "h5_investment_in_vaccines",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "m1_wildcard",
 									"type": "String",
-									"ordinal": 30
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column30",
-									"type": "String"
+									"name": "m1_wildcard",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "confirmedcases",
 									"type": "String",
-									"ordinal": 31
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column31",
-									"type": "String"
+									"name": "confirmedcases",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "confirmeddeaths",
 									"type": "String",
-									"ordinal": 32
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column32",
-									"type": "String"
+									"name": "confirmeddeaths",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "stringencyindex",
 									"type": "String",
-									"ordinal": 33
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column33",
-									"type": "String"
+									"name": "stringencyindex",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "stringencyindexfordisplay",
 									"type": "String",
-									"ordinal": 34
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column34",
-									"type": "String"
+									"name": "stringencyindexfordisplay",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "legacystringencyindex",
 									"type": "String",
-									"ordinal": 35
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column35",
-									"type": "String"
+									"name": "legacystringencyindex",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "legacystringencyindexfordisplay",
 									"type": "String",
-									"ordinal": 36
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column36",
-									"type": "String"
+									"name": "legacystringencyindexfordisplay",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "iso_country",
 									"type": "String",
-									"ordinal": 37
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column37",
-									"type": "String"
+									"name": "iso_country",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "load_date",
 									"type": "String",
-									"ordinal": 38
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column38",
-									"type": "String"
+									"name": "load_date",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "id",
 									"type": "String",
-									"ordinal": 39
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column39",
-									"type": "String"
+									"name": "id",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "_rid",
 									"type": "String",
-									"ordinal": 40
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column40",
-									"type": "String"
+									"name": "_rid",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "_self",
 									"type": "String",
-									"ordinal": 41
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column41",
-									"type": "String"
+									"name": "_self",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "_etag",
 									"type": "String",
-									"ordinal": 42
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column42",
-									"type": "String"
+									"name": "_etag",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "_attachments",
 									"type": "String",
-									"ordinal": 43
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column43",
-									"type": "String"
+									"name": "_attachments",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "_ts",
 									"type": "String",
-									"ordinal": 44
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Column44",
-									"type": "String"
+									"name": "_ts",
+									"type": "String",
+									"physicalType": "String"
 								}
 							},
 							{
@@ -510,8 +598,9 @@
 									"type": "String"
 								},
 								"sink": {
-									"name": "Column45",
-									"type": "String"
+									"name": "SourceFlag",
+									"type": "String",
+									"physicalType": "String"
 								}
 							}
 						],
