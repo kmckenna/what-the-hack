@@ -63,7 +63,8 @@
 									"path": "$['countryname']"
 								},
 								"sink": {
-									"name": "countryname"
+									"name": "countryname",
+									"type": "String"
 								}
 							},
 							{
@@ -71,7 +72,8 @@
 									"path": "$['countrycode']"
 								},
 								"sink": {
-									"name": "countrycode"
+									"name": "countrycode",
+									"type": "String"
 								}
 							},
 							{
@@ -79,7 +81,8 @@
 									"path": "$['date']"
 								},
 								"sink": {
-									"name": "date"
+									"name": "date",
+									"type": "DateTime"
 								}
 							},
 							{
@@ -421,7 +424,7 @@
 								}
 							}
 						],
-						"mapComplexValuesToString": false
+						"mapComplexValuesToString": true
 					}
 				},
 				"inputs": [
