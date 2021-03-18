@@ -12,8 +12,9 @@
 				"type": "AzureBlobFSLocation",
 				"fileSystem": "srccosmosdb"
 			},
-			"columnDelimiter": "|",
+			"columnDelimiter": ",",
 			"escapeChar": "\\",
+			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
 		"schema": []
