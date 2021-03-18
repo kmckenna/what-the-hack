@@ -10,12 +10,13 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "PolicyData_in_CSV.csv",
+				"fileName": "PolicyData_Final_CSV",
+				"folderPath": "PolicyData_final_CSV",
 				"fileSystem": "srccosmosdb"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
-			"firstRowAsHeader": false,
+			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
 		"schema": [
