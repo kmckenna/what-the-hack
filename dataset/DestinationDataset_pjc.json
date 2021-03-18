@@ -1,0 +1,16 @@
+{
+	"name": "DestinationDataset_pjc",
+	"properties": {
+		"annotations": [],
+		"type": "SqlPoolTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "team6db_stg",
+			"table": "VMMetrics"
+		},
+		"sqlPool": {
+			"referenceName": "ODSSQLPool",
+			"type": "SqlPoolReference"
+		}
+	}
+}
