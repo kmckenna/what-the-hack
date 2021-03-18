@@ -10,7 +10,6 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"folderPath": "PolicyData_final_CSV",
 				"fileSystem": "srccosmosdb"
 			},
 			"columnDelimiter": ",",
