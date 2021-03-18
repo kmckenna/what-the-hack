@@ -199,7 +199,8 @@
 									"path": "$['c8_international_travel_controls']"
 								},
 								"sink": {
-									"name": "c8_international_travel_controls"
+									"name": "c8_international_travel_controls",
+									"type": "Decimal"
 								}
 							},
 							{
