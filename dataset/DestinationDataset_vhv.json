@@ -19,10 +19,12 @@
 					"value": "@dataset().cw_fileName",
 					"type": "Expression"
 				},
+				"folderPath": "Metrics_final_CSV",
 				"fileSystem": "srcvm"
 			},
-			"columnDelimiter": "|",
+			"columnDelimiter": ",",
 			"escapeChar": "\\",
+			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
 		"schema": []
