@@ -1,0 +1,23 @@
+{
+	"name": "SourceDataset_esn",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzDLStrg_srcSQLData_CSV",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Covid19_Metrics_CSV.csv",
+				"fileSystem": "srcazsql"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": false,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
