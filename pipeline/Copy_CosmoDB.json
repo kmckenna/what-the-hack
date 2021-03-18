@@ -277,7 +277,8 @@
 									"path": "$['h3_contact_tracing']"
 								},
 								"sink": {
-									"name": "h3_contact_tracing"
+									"name": "h3_contact_tracing",
+									"type": "Decimal"
 								}
 							},
 							{
@@ -285,7 +286,8 @@
 									"path": "$['h4_emergency_investment_in_healthcare']"
 								},
 								"sink": {
-									"name": "h4_emergency_investment_in_healthcare"
+									"name": "h4_emergency_investment_in_healthcare",
+									"type": "Decimal"
 								}
 							},
 							{
@@ -293,7 +295,8 @@
 									"path": "$['h5_investment_in_vaccines']"
 								},
 								"sink": {
-									"name": "h5_investment_in_vaccines"
+									"name": "h5_investment_in_vaccines",
+									"type": "Decimal"
 								}
 							},
 							{
