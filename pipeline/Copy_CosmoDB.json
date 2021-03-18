@@ -349,7 +349,8 @@
 									"path": "$['legacystringencyindexfordisplay']"
 								},
 								"sink": {
-									"name": "legacystringencyindexfordisplay"
+									"name": "legacystringencyindexfordisplay",
+									"type": "String"
 								}
 							},
 							{
