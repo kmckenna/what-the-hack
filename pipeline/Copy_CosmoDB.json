@@ -240,7 +240,8 @@
 									"path": "$['e4_international_support']"
 								},
 								"sink": {
-									"name": "e4_international_support"
+									"name": "e4_international_support",
+									"type": "Decimal"
 								}
 							},
 							{
