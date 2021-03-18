@@ -232,7 +232,8 @@
 									"path": "$['e3_fiscal_measures']"
 								},
 								"sink": {
-									"name": "e3_fiscal_measures"
+									"name": "e3_fiscal_measures",
+									"type": "Decimal"
 								}
 							},
 							{
@@ -419,7 +420,8 @@
 									"name": "_ts"
 								}
 							}
-						]
+						],
+						"mapComplexValuesToString": false
 					}
 				},
 				"inputs": [
